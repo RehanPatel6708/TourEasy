@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>Tour Easy</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/TourEasy (3).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="main">
+        <div class="header-container" id="header-trap">
+        <header>
+            <div class="header-main">
+                <div class="logo"><img height="200" width="200" src="images/logo-toureasy.png"/></div>
+                <div class="menu-bar">
+                    <div class="topnav" id="home"><a href="home.html">home</a></div>
+                    <div class="topnav" id="eat"><a href="eat.html">Eat</a></div>
+                    <div class="topnav" id="play"><a href="play.html">Play</a></div>
+                    <div class="topnav" id="relax"><a href="relax.html">Relax</a></div>
+                    <div class="topnav" id="about"><a href="about.html">about</a></div>
+                    <div class="topnav" id="contact"><a href="contact.html">contact us</a></div>
+                </div>
+                <div class="login">
+                    <div class="login-img"><img height="50px" width="50px" src="images/login-image.png"></div>
+                    <div class="login-txt"><a href="login.html">Login</a></div>
+                </div>
+            </div>
+        </header>
+        </div>
+        <div class="banner">
+            <img alt="single full width image" class="banner__image" src="images/about_paranoma.jpg"> 
+            <div class="banner__gradient"></div>
+            
+            <!--div class="wrap wrap--relative">
+                <div class="banner__text">
+                    <p class="p--sans-serif p--small"><strong>Banner Type: Single Full Width Image</strong></p>
+                    <p class="p--sans-serif p--small">This single full width image is 1920 x 768 pixels.</p>
+                </div>
+            </!--div-->
+        </div>
+        
+     
+
+        <style>
+            body {
+              margin: 0;
+              overflow: visible;
+            }
+        
+            .plane {
+              position: absolute;
+              top: 70%;
+              left: 0;
+              width: 20%;
+              height: 20%;
+              margin-top: -300px;
+              /* Gold */
+              clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+              animation: fly 6s linear infinite;
+            }
+        
+            @keyframes fly {
+              to {
+                transform: translateX(100vw);
+              }
+            }
+          </style>
+          <div class="sky">
+            <div class="plane"></div>
+            <img src="images/plane.png" alt="Plane" class="plane">
+          </div>
+
+        <div class="main-content">
+            <main>
+                <div class="about-main-struct">
+                    <h1>ABOUT US</h1>
+                        <p style="font-size: 20px; max-width: 100%; text-align: center;">
+                            I’m Rehan and this is the website which I have created. I’m really passionate about coding and have always wanted to create a website which someday will be live on google. But I never got the opportunity to do so. But now, when I got the opportunity, I created this travel website. I have always been into coding since I was a kid. I have created an app, a functioning circuit, and a website. However, none of those were really great. I have always believed in helping others and that is the mindset which led to the creation of this website. The idea of this website came into my mind when I was wondering what I can do for my project. It was really confusing on what topic I can create this website for. But then, I decided to merge both of my passions and this is how TourEasy came to life. I just have one aim, which is to create something which will help people out. This website will help out travelers and families to plan their next trip. 
+                         </p>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="first-row-footer">
+                    <div class="left-footer">
+                        <address>
+                            Address: <br>
+                             x y z <br>
+                             TourEasy with Us &copy; 2023
+                         </address>
+                    </div>
+                    <div class="right-footer">
+                        <div class="footer-activity"><a href="eat.html"><img src="images/Eat-PP website.png" height="60" width="60"/></a></div>
+                        <div class="footer-activity"><a href="play.html"><img src="images/Play-PP website.png" height="60" width="60"/></a></div>
+                        <div class="footer-activity"><a href="relax.html"><img src="images/Relax-PP website.png" height="60" width="60"/></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    /* For active class*/
+   var currentPage = window.location.href;
+   if(currentPage.includes("home.html")){
+    document.getElementById("home").classList.add("active");
+   }
+   if(currentPage.includes("eat.html")){
+    document.getElementById("eat").classList.add("active");
+   }
+   if(currentPage.includes("play.html")){
+    document.getElementById("play").classList.add("active");
+   }
+   if(currentPage.includes("relax.html")){
+    document.getElementById("relax").classList.add("active");
+   }
+   if(currentPage.includes("about.html")){
+    document.getElementById("about").classList.add("active");
+   }
+   if(currentPage.includes("contact.html")){
+    document.getElementById("contact").classList.add("active");
+   }
+    /* End For active class*/
+</script>
+</html>

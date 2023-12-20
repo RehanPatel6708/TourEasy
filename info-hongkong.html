@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<head>
+    <title>Tour Easy</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/TourEasy (3).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+    <div class="main">
+        <div class="header-container" id="header-trap">
+
+        <header>
+            <div class="header-main">
+                <div class="logo"><img height="200px" width="200px" src="images/logo-toureasy.png"/></div>
+                <div class="menu-bar">
+                    <div class="topnav" id="home"><a href="home.html">home</a></div>
+                    <div class="topnav" id="eat"><a href="eat.html">Eat</a></div>
+                    <div class="topnav" id="play"><a href="play.html">Play</a></div>
+                    <div class="topnav" id="relax"><a href="relax.html">Relax</a></div>
+                    <div class="topnav" id="about"><a href="about.html">about</a></div>
+                    <div class="topnav" id="contact"><a href="contact.html">contact us</a></div>
+                </div>
+                <div class="login">
+                    <div class="login-img"><img height="50px" width="50px" src="images/login-image.png"></div>
+                    <div class="login-txt"><a href="login.html">Login</a></div>
+                </div>
+            </div>
+        </header>
+        </div>
+        <div class="banner">
+            <img alt="single full width image" class="banner__image" src="images/HongKong.jpg"> 
+            <div class="banner__gradient"></div>
+            <!--div class="wrap wrap--relative">
+                <div class="banner__text">
+                    <p class="p--sans-serif p--small"><strong>Banner Type: Single Full Width Image</strong></p>
+                    <p class="p--sans-serif p--small">This single full width image is 1920 x 768 pixels.</p>
+                </div>
+            </!--div-->
+        </div>
+        <div class="main-content">
+            <main>
+                <div class="main-struct">
+                    <div class="place-info">
+                        <h1>Hong Kong:</h1>
+                        <h2>Basic information:</h2>
+                        <p>It is a vibrant city located on the southern coast of China. The history of Hong Kong is what makes the people visiting shocked. Moreover, Hong Kong is known for its impressive skyline, bustling harbor and a rich blend of Eastern and Western cultures.</p>
+
+                        <h2>Attractions:</h2>
+                        <ul>
+                            <li>Hong Kong Disneyland</li>
+                            <li>Ocean Park</li>
+                            <li>Victoria Peak</li>
+                            <li>Ngong Ping 360</li>
+                            <li>Star Ferry</li>
+                            <li>Lantau Island</li>
+                        </ul>
+
+                        <h2>Best time to visit:</h2>
+                        <p>The best time to visit Hong Kong would be during summers since that’s when the weather is perfect. Since during winters, there are chances it might be really cold so visiting Hong Kong during the summer is the best option.</p>
+
+                        <h2>Recommended clothes:</h2>
+                        <p>I would recommend you to carry simple clothes which you might wear everyday. However, you can keep a couple of jackets since it might be cold in Hong Kong during the night.</p>
+
+                        <h2>How many days to visit Hong Kong:</h2>
+                        <p>I would suggest around a week since Hong Kong has many places to visit and explore and a week would be sufficient to visit and explore the major things in Hong Kong.</p>
+
+                        <style>
+                            * {box-sizing: border-box;}
+                            ul {list-style-type: none;}
+                            body {font-family: Verdana, sans-serif;}
+                            
+                            .month {
+                              padding: 70px 25px;
+                              width: 100%;
+                              background: #1abc9c;
+                              text-align: center;
+                            }
+                            
+                            .month ul {
+                              margin: 0;
+                              padding: 0;
+                            }
+                            
+                            .month ul li {
+                              color: white;
+                              font-size: 20px;
+                              text-transform: uppercase;
+                              letter-spacing: 3px;
+                            }
+                            
+                            .month .prev {
+                              float: left;
+                              padding-top: 10px;
+                            }
+                            
+                            .month .next {
+                              float: right;
+                              padding-top: 10px;
+                            }
+                            
+                            .weekdays {
+                              margin: 0;
+                              padding: 10px 0;
+                              background-color: #ddd;
+                            }
+                            
+                            .weekdays li {
+                              display: inline-block;
+                              width: 13.6%;
+                              color: #666;
+                              text-align: center;
+                            }
+                            
+                            .days {
+                              padding: 10px 0;
+                              background: #eee;
+                              margin: 0;
+                            }
+                            
+                            .days li {
+                              list-style-type: none;
+                              display: inline-block;
+                              width: 13.6%;
+                              text-align: center;
+                              margin-bottom: 5px;
+                              font-size:12px;
+                              color: #777;
+                            }
+                            
+                            .days li .active {
+                              padding: 5px;
+                              background: #1abc9c;
+                              color: white !important
+                            }
+                            
+                            /* Add media queries for smaller screens */
+                            @media screen and (max-width:720px) {
+                              .weekdays li, .days li {width: 13.1%;}
+                            }
+                            
+                            @media screen and (max-width: 420px) {
+                              .weekdays li, .days li {width: 12.5%;}
+                              .days li .active {padding: 2px;}
+                            }
+                            
+                            @media screen and (max-width: 290px) {
+                              .weekdays li, .days li {width: 12.2%;}
+                            }
+                            </style>
+
+<h1>My Opinion:</h1>
+
+<div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      July<br>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li><span class="active">9</span></li>
+  <li><span class="active">10</span></li>
+  <li><span class="active">11</span></li>
+  <li><span class="active">12</span></li>
+  <li><span class="active">13</span></li>
+  <li><span class="active">14</span></li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+
+
+                        <h2>What can you expect and my experience:</h2>
+                        <p>I visited Hong Kong during the winter, specifically in the month of January. It was pretty cold during that time, so we were not able to do a few water activities. However, overall it was a great experience.</p>
+                    </div>  
+                </div>
+                <div class="gmap">
+                  <h1 class="location">Location</h1>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.67514026276!2d113.97425036907421!3d22.35264053305446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2sin!4v1701318554688!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </main>
+        </div>
+
+        
+
+        <footer>
+            <div class="footer-content">
+                <div class="first-row-footer">
+                    <div class="left-footer">
+                        <address>
+                            Address: <br>
+                             x y z <br>
+                             TourEasy with Us &copy; 2023
+                         </address>
+                    </div>
+                    <div class="right-footer">
+                      <div class="footer-activity"><a href="eat.html"><img src="images/Eat-PP website.png" height="60" width="60"/></a></div>
+                      <div class="footer-activity"><a href="play.html"><img src="images/Play-PP website.png" height="60" width="60"/></a></div>
+                      <div class="footer-activity"><a href="relax.html"><img src="images/Relax-PP website.png" height="60" width="60"/></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    /* For active class*/
+   var currentPage = window.location.href;
+   if(currentPage.includes("home.html")){
+    document.getElementById("home").classList.add("active");
+   }
+   if(currentPage.includes("eat.html")){
+    document.getElementById("eat").classList.add("active");
+   }
+   if(currentPage.includes("play.html")){
+    document.getElementById("play").classList.add("active");
+   }
+   if(currentPage.includes("relax.html")){
+    document.getElementById("relax").classList.add("active");
+   }
+   if(currentPage.includes("about.html")){
+    document.getElementById("about").classList.add("active");
+   }
+   if(currentPage.includes("contact.html")){
+    document.getElementById("contact").classList.add("active");
+   }
+    /* End For active class*/
+    
+</script>
+</html>

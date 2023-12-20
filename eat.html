@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tour Easy</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/TourEasy (3).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header-container" id="header-trap">
+
+        <header>
+            <div class="header-main">
+                <div class="logo"><img height="200" width="200" src="images/logo-toureasy.png"/></div>
+                <div class="menu-bar">
+                    <div class="topnav" id="home"><a href="home.html">home</a></div>
+                    <div class="topnav" id="eat"><a href="eat.html">Eat</a></div>
+                    <div class="topnav" id="play"><a href="play.html">Play</a></div>
+                    <div class="topnav" id="relax"><a href="relax.html">Relax</a></div>
+                    <div class="topnav" id="about"><a href="about.html">about</a></div>
+                    <div class="topnav" id="contact"><a href="contact.html">contact us</a></div>
+                </div>
+                <div class="login">
+                    <div class="login-img"><img height="50px" width="50px" src="images/login-image.png"></div>
+                    <div class="login-txt"><a href="login.html">Login</a></div>
+                </div>
+            </div>
+        </header>
+        </div>
+        <div class="banner">
+            <img alt="single full width image" class="banner__image" src="images/eat_paranoma.jpg"> 
+            <div class="banner__gradient"></div>
+            <!--div class="wrap wrap--relative">
+                <div class="banner__text">
+                    <p class="p--sans-serif p--small"><strong>Banner Type: Single Full Width Image</strong></p>
+                    <p class="p--sans-serif p--small">This single full width image is 1920 x 768 pixels.</p>
+                </div>
+            </!--div-->
+        </div>
+        <div class="main-content">
+            <main>
+                <div class="main-struct">
+                    <h1>EAT</h1>
+                    <div class="row">
+                        <div class="country-div-eat">
+                            <div>
+                                <img src="images/Mumbai.jpg" width="900" height="500" class="country-img"/>
+                            </div>
+                            <div class="content-country">
+                                <div class="country-div-small">
+                                    <img src="images/eat-color-small.jpg" height="40px" width="40px"/>
+                                </div>
+                                <div class="contain" style="margin-left: 20px;">
+                                    <div class="first-row-content">ENJOY THE LUSCIOUS FOOD</div>
+                                    <div class="second-row-content">
+                                        <div style="float: left;">Mumbai, India</div>
+                                        <div style="float: left;"> | </div>
+                                        <div style="float: left;"><a href="info-mumbai.html"> more..</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                    <div class="row">
+                        <div class="country-div-eat">
+                            <div>
+                                <img src="images/pancake.jpg" width="900" height="500" class="country-img"/>
+                            </div>
+                            <div class="content-country">
+                                <div class="country-div-small">
+                                    <img src="images/eat-color-small.jpg" height="40px" width="40px"/>
+                                </div>
+                                <div class="contain" style="margin-left: 20px;">
+                                    <div class="first-row-content">THOSE FLUFFY PANCAKES</div>
+                                    <div class="second-row-content">
+                                        <div style="float: left;">Hong-Kong, China</div>
+                                        <div style="float: left;"> | </div>
+                                        <div style="float: left;"><a href="info-hongkong.html"> more..</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                </div>
+            </main>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="first-row-footer">
+                    <div class="left-footer">
+                        <address>
+                            Address: <br>
+                             x y z <br>
+                             TourEasy with Us &copy; 2023
+                         </address>
+                    </div>
+                    <div class="right-footer">
+                        <div class="footer-activity"><a href="eat.html"><img src="images/Eat-PP website.png" height="60" width="60"/></a></div>
+                        <div class="footer-activity"><a href="play.html"><img src="images/Play-PP website.png" height="60" width="60"/></a></div>
+                        <div class="footer-activity"><a href="relax.html"><img src="images/Relax-PP website.png" height="60" width="60"/></a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    /* For active class*/
+   var currentPage = window.location.href;
+   if(currentPage.includes("home.html")){
+    document.getElementById("home").classList.add("active");
+   }
+   if(currentPage.includes("eat.html")){
+    document.getElementById("eat").classList.add("active");
+   }
+   if(currentPage.includes("play.html")){
+    document.getElementById("play").classList.add("active");
+   }
+   if(currentPage.includes("relax.html")){
+    document.getElementById("relax").classList.add("active");
+   }
+   if(currentPage.includes("about.html")){
+    document.getElementById("about").classList.add("active");
+   }
+   if(currentPage.includes("contact.html")){
+    document.getElementById("contact").classList.add("active");
+   }
+    /* End For active class*/
+    
+</script>
+</html>
